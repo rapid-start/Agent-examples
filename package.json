@@ -1,8 +1,9 @@
 {
   "name": "agent-examples",
+  "type": "module",
   "description": "若干智能体开源框架相关产品开发的代码练习，使用TypeScript、Python3等开发",
   "scripts": {
-    "dev": "oipage-cli run \"ts-node \"",
+    "dev": "oipage-cli run \"ts-node-esm \"",
     "postinstall": "vislite-cli skills -c ./workspace/skills -f"
   },
   "devDependencies": {
@@ -10,7 +11,7 @@
     "@types/node": "^25.6.0",
     "ts-node": "^10.9.2",
     "typescript": "^6.0.3",
-    "vislite": "^1.12.0-alpha.0"
+    "vislite": "^1.12.0"
   },
   "dependencies": {
     "@earendil-works/pi-ai": "^0.74.0",
